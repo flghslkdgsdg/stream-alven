@@ -1,8 +1,8 @@
 if(!Discord) var Discord = require('discord.js');
 if(!client) var client = new Discord.Client();
-if(!prefix) var prefix = ".";
+if(!prefix) var prefix = "A";
 
-const adminprefix = "!";
+const adminprefix = "A";
 const devs = ['427611667631964180'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
